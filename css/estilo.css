@@ -1,0 +1,70 @@
+body {
+    font-family: 'Play', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #18273e;
+    padding-top: 18px;
+    color: #ffffff;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.menu__wropper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_item__link {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    transition: 0.5s all linear;
+}
+
+.btn {
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.btn__orange {
+    border-radius: 16px;
+    padding: 11px;
+    width: 120px;
+    background: #FF304F;
+    color: #FFC500;
+}
+
+.menu_item__link:hover {
+    color: #00c6BF;
+    background: white;
+    border-radius: 10px;
+}
+
+.menu_item__link--green {
+    color: #00c6BF;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.main-text__wropper {
+    padding: 200px 0;
+    text-align: center;
+}
+
+.main__tittle {
+    font-size: 52px;
+    padding: 20px;
+}
+
+.sub__tittle {
+    padding: 20px;
+    font-size: 15px;
+    color: #a7b8bf;
+}
